@@ -1,0 +1,65 @@
+@charset "utf-8"; 
+
+/*
+ * --------------------------------------------------------------------------
+ * descript : 폰트 가져오기
+ * --------------------------------------------------------------------------
+ * author	: Yoodaekyung
+ * update	: 2019.06.10
+ * --------------------------------------------------------------------------
+ */
+
+/*
+ * ==========================================================================
+ * Table of Contents 
+ * ==========================================================================
+ * 1.0 - 구글폰트
+ * 2.0 - 로컬 폰트
+ * 3.0 - 웹 폰트
+ * --------------------------------------------------------------------------
+ */
+
+/* --------------------------------------------------------------------------
+   1.0 https://fonts.google.com/
+   -------------------------------------------------------------------------- */
+
+/* --------------------------------------------------------------------------
+   2.0 로컬 폰트 가져오기
+   -------------------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------------------
+   3.0 웹 폰트 가져오기
+   -------------------------------------------------------------------------- */
+
+   /* 나눔 고딕                        font-family: 'Nanum Gothic', sans-serif;	        */
+   @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800');
+
+   /* 나눔 명조                        font-family: 'Nanum Myeongjo', sans-serif;	    */		
+   @import url('https://fonts.googleapis.com/css?family=Nanum+Myeongjo:400,700,800');
+   
+   /* 나눔 바른고딕(400,700)           font-family: 'Nanum Barun Gothic', sans-serif;   */
+   @import url('//cdn.jsdelivr.net/font-nanum/1.0/nanumbarungothic/nanumbarungothic.css');
+
+   /* 나눔 스퀘어(300,400,700,800)     font-family: 'NanumSquare', sans-serif;	        */
+   @import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+   
+   /* 나눔 펜                          font-family: 'Nanum Pen', sans-serif;		    */
+   @import url('https://fonts.googleapis.com/css?family=Nanum+Pen+Script');
+
+   /* 나눔 브러쉬                      font-family: 'Nanum Brush', sans-serif;		    */				
+   @import url('https://fonts.googleapis.com/css?family=Nanum+Brush+Script');
+
+   /* 나눔 코딩                        font-family: 'Nanum Coding', sans-serif;	        */
+   @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding:400,700');
+
+   /* 본고딕                           font-family: 'Noto Sans KR', sans-serif;	        */
+   @import url('https://fonts.googleapis.com/earlyaccess/notosanskr.css');
+   
+   /* Montserrat                        font-family: 'Montserrat', sans-serif;	        */
+   @import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+   /* 고담프로                          font-family: 'GothamPro', sans-serif;	        */
+   @import url('https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css');
+
+

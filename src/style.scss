@@ -1,0 +1,29 @@
+@import url("./assets/css/style.reset.css");
+@import url("./assets/css/style.common.css");
+@import url("./assets/css/style.fonts.css");
+@import url("./assets/css/style.animate.css");
+
+
+html, body{width:100%; height:100%;}
+
+#wrap{width:100%; height:100%;}
+
+.login-wrap{
+    height:100%; padding-top:50px; background:#f2f7f8 url(./assets/img/common/login_bg.png) no-repeat center bottom; text-align:center; box-sizing:border-box;
+
+    strong{font-size:36px; color:#333; font-weight:400;}
+    p{font-size:14px; color:#959595;}
+
+    .field{
+        width:100%; max-width:380px; margin:0 auto 3px auto;
+
+        select,
+        input[type="text"],
+        input[type="password"],
+        button{width:100%; height:40px; box-sizing:border-box; border:1px solid #d1d4d6; border-radius:3px;}
+
+        select{background:#fff url(./assets/img/common/select_arrow.png) no-repeat right center;}
+
+        .chk{text-align:left;}
+    }
+}

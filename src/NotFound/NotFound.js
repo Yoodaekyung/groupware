@@ -1,11 +1,11 @@
 import React from 'react';
 
-function NotFound() {
-  return (
-    <fragment>
+const NotFound = () => (
+  <div>
+      <fragment>
         NotFound
-    </fragment>
-  );
-}
+      </fragment>
+  </div>
+);
 
 export default NotFound;
